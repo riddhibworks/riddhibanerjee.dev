@@ -77,15 +77,19 @@ export const Skills: React.FC<SkillsProps> = ({ skillGroups, loading }) => {
 
         {/* Skills Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {filteredGroups.map((group, groupIdx) => (
-            <motion.div
-              key={group.category}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: groupIdx * 0.1 }}
-              className="bg-[#F7F2E9] rounded-xl p-6 sm:p-8 border border-[#E5DBD0] relative group overflow-hidden shadow-xs hover:border-accent-600/50 transition-all duration-300"
-            >
+          {filteredGroups.map((group, groupIdx) => {
+            const isLastOdd = filteredGroups.length % 2 === 1 && groupIdx === filteredGroups.length - 1;
+            return (
+              <motion.div
+                key={group.category}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: groupIdx * 0.1 }}
+                className={`bg-[#F7F2E9] rounded-xl p-6 sm:p-8 border border-[#E5DBD0] relative group overflow-hidden shadow-xs hover:border-accent-600/50 transition-all duration-300 ${
+                  isLastOdd ? 'md:col-span-2 md:w-full md:max-w-[calc(50%-1rem)] md:mx-auto' : ''
+                }`}
+              >
               {/* Top Accent Line */}
               <div className="absolute top-0 left-0 right-0 h-0.5 bg-accent-600 opacity-60 group-hover:opacity-100 transition-opacity"></div>
 
@@ -133,7 +137,8 @@ export const Skills: React.FC<SkillsProps> = ({ skillGroups, loading }) => {
               </div>
 
             </motion.div>
-          ))}
+          );
+        })}
         </div>
 
       </div>
