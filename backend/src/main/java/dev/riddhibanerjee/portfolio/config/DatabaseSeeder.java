@@ -136,6 +136,25 @@ public class DatabaseSeeder implements CommandLineRunner {
                                 "Collaborated across teams to design custom solutions by deeply analyzing complex airline loyalty business workflows"
                         ))
                         .techStack(List.of("Java", "Quarkus", "Spring Boot", "PostgreSQL", "AWS", "REST APIs", "Docker", "Git", "Postman"))
+                        .build(),
+
+                Experience.builder()
+                        .role("Bachelor of Technology (B.Tech)")
+                        .company("Academy of Technology")
+                        .companyUrl("http://aot.edu.in")
+                        .location("India")
+                        .type(Experience.ExperienceType.EDUCATION)
+                        .startDate("2019")
+                        .endDate("2023")
+                        .currentRole(false)
+                        .description("Graduated with a cumulative GPA of 9.0 / 10.0. Comprehensive study of Electronics and Communicationß Engineering, data structures, algorithms, object-oriented systems design, and database engineering.")
+                        .displayOrder(3)
+                        .accomplishments(List.of(
+                                "Graduated with a GPA of 9.0 / 10.0",
+                                "Specialized in Data Structures, Algorithms, Object-Oriented Programming, and Database Systems",
+                                "Developed multiple core software engineering projects and participated in coding competitions"
+                        ))
+                        .techStack(List.of("Java", "C", "Data Structures", "Algorithms", "DBMS", "Operating Systems", "Computer Networks", "OOP"))
                         .build()
         );
 
