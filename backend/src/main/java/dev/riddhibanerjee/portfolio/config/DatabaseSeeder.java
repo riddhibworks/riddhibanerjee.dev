@@ -148,38 +148,38 @@ public class DatabaseSeeder implements CommandLineRunner {
                 Skill.builder().name("Java").category("Languages").proficiency(95).iconName("java").featured(true).displayOrder(1).build(),
                 Skill.builder().name("JavaScript").category("Languages").proficiency(90).iconName("javascript").featured(true).displayOrder(2).build(),
                 Skill.builder().name("TypeScript").category("Languages").proficiency(88).iconName("typescript").featured(true).displayOrder(3).build(),
-                Skill.builder().name("C#").category("Languages").proficiency(78).iconName("csharp").featured(false).displayOrder(4).build(),
+                Skill.builder().name("C#").category("Languages").proficiency(78).iconName("csharp").featured(true).displayOrder(4).build(),
 
                 // Frameworks
                 Skill.builder().name("Spring Boot 3.x").category("Frameworks").proficiency(96).iconName("springboot").featured(true).displayOrder(5).build(),
                 Skill.builder().name("Quarkus").category("Frameworks").proficiency(90).iconName("quarkus").featured(true).displayOrder(6).build(),
                 Skill.builder().name("React").category("Frameworks").proficiency(85).iconName("react").featured(true).displayOrder(7).build(),
-                Skill.builder().name("Angular").category("Frameworks").proficiency(80).iconName("angular").featured(false).displayOrder(8).build(),
-                Skill.builder().name("Electron & ElysiaJS").category("Frameworks").proficiency(85).iconName("electron").featured(false).displayOrder(9).build(),
+                Skill.builder().name("Angular").category("Frameworks").proficiency(80).iconName("angular").featured(true).displayOrder(8).build(),
+                Skill.builder().name("Electron & ElysiaJS").category("Frameworks").proficiency(85).iconName("electron").featured(true).displayOrder(9).build(),
 
                 // Databases
                 Skill.builder().name("PostgreSQL").category("Databases").proficiency(94).iconName("postgresql").featured(true).displayOrder(10).build(),
                 Skill.builder().name("MongoDB").category("Databases").proficiency(86).iconName("mongodb").featured(true).displayOrder(11).build(),
-                Skill.builder().name("Microsoft SQL Server (MSSQL)").category("Databases").proficiency(84).iconName("mssql").featured(false).displayOrder(12).build(),
+                Skill.builder().name("Microsoft SQL Server (MSSQL)").category("Databases").proficiency(84).iconName("mssql").featured(true).displayOrder(12).build(),
 
                 // Cloud & DevOps
                 Skill.builder().name("AWS (EC2, S3, RDS)").category("Cloud & DevOps").proficiency(88).iconName("aws").featured(true).displayOrder(13).build(),
                 Skill.builder().name("Docker").category("Cloud & DevOps").proficiency(90).iconName("docker").featured(true).displayOrder(14).build(),
                 Skill.builder().name("Kubernetes").category("Cloud & DevOps").proficiency(85).iconName("kubernetes").featured(true).displayOrder(15).build(),
-                Skill.builder().name("CI/CD Pipelines").category("Cloud & DevOps").proficiency(86).iconName("cicd").featured(false).displayOrder(16).build(),
+                Skill.builder().name("CI/CD Pipelines").category("Cloud & DevOps").proficiency(86).iconName("cicd").featured(true).displayOrder(16).build(),
 
                 // Tools & Messaging
                 Skill.builder().name("Git & GitHub").category("Tools & Messaging").proficiency(95).iconName("git").featured(true).displayOrder(17).build(),
                 Skill.builder().name("RabbitMQ").category("Tools & Messaging").proficiency(88).iconName("rabbitmq").featured(true).displayOrder(18).build(),
-                Skill.builder().name("Postman").category("Tools & Messaging").proficiency(94).iconName("postman").featured(false).displayOrder(19).build(),
+                Skill.builder().name("Postman").category("Tools & Messaging").proficiency(94).iconName("postman").featured(true).displayOrder(19).build(),
                 Skill.builder().name("GitHub Copilot & Claude Code").category("Tools & Messaging").proficiency(92).iconName("copilot").featured(true).displayOrder(20).build(),
 
                 // Architecture & Concepts
                 Skill.builder().name("Microservices Architecture").category("Architecture & Concepts").proficiency(96).iconName("layers").featured(true).displayOrder(21).build(),
                 Skill.builder().name("REST APIs & WebSockets").category("Architecture & Concepts").proficiency(98).iconName("api").featured(true).displayOrder(22).build(),
                 Skill.builder().name("Distributed Systems").category("Architecture & Concepts").proficiency(92).iconName("network").featured(true).displayOrder(23).build(),
-                Skill.builder().name("OOP & Design Patterns").category("Architecture & Concepts").proficiency(94).iconName("code").featured(false).displayOrder(24).build(),
-                Skill.builder().name("Agile / Scrum").category("Architecture & Concepts").proficiency(92).iconName("agile").featured(false).displayOrder(25).build()
+                Skill.builder().name("OOP & Design Patterns").category("Architecture & Concepts").proficiency(94).iconName("code").featured(true).displayOrder(24).build(),
+                Skill.builder().name("Agile / Scrum").category("Architecture & Concepts").proficiency(92).iconName("agile").featured(true).displayOrder(25).build()
         );
 
         skillRepository.saveAll(skills);

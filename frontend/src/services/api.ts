@@ -115,7 +115,7 @@ const FALLBACK_SKILLS: SkillCategoryGroupDto[] = [
       { id: 3, name: 'Quarkus', category: 'Languages & Frameworks', proficiency: 90, iconName: 'quarkus', featured: true, displayOrder: 3 },
       { id: 4, name: 'JavaScript / TypeScript', category: 'Languages & Frameworks', proficiency: 90, iconName: 'typescript', featured: true, displayOrder: 4 },
       { id: 5, name: 'Angular & React', category: 'Languages & Frameworks', proficiency: 85, iconName: 'react', featured: true, displayOrder: 5 },
-      { id: 6, name: 'Electron & ElysiaJS', category: 'Languages & Frameworks', proficiency: 85, iconName: 'electron', featured: false, displayOrder: 6 },
+      { id: 6, name: 'Electron & ElysiaJS', category: 'Languages & Frameworks', proficiency: 85, iconName: 'electron', featured: true, displayOrder: 6 },
     ],
   },
   {
@@ -123,7 +123,7 @@ const FALLBACK_SKILLS: SkillCategoryGroupDto[] = [
     skills: [
       { id: 10, name: 'PostgreSQL', category: 'Databases & Cloud', proficiency: 94, iconName: 'postgresql', featured: true, displayOrder: 10 },
       { id: 11, name: 'MongoDB', category: 'Databases & Cloud', proficiency: 86, iconName: 'mongodb', featured: true, displayOrder: 11 },
-      { id: 12, name: 'Microsoft SQL Server (MSSQL)', category: 'Databases & Cloud', proficiency: 84, iconName: 'mssql', featured: false, displayOrder: 12 },
+      { id: 12, name: 'Microsoft SQL Server (MSSQL)', category: 'Databases & Cloud', proficiency: 84, iconName: 'mssql', featured: true, displayOrder: 12 },
       { id: 13, name: 'AWS (EC2, S3, RDS)', category: 'Databases & Cloud', proficiency: 88, iconName: 'aws', featured: true, displayOrder: 13 },
       { id: 14, name: 'Docker & Kubernetes', category: 'Databases & Cloud', proficiency: 90, iconName: 'docker', featured: true, displayOrder: 14 },
     ],
@@ -133,9 +133,9 @@ const FALLBACK_SKILLS: SkillCategoryGroupDto[] = [
     skills: [
       { id: 17, name: 'Microservices & REST APIs', category: 'Architecture & Tools', proficiency: 96, iconName: 'api', featured: true, displayOrder: 17 },
       { id: 18, name: 'Distributed Systems & WebSockets', category: 'Architecture & Tools', proficiency: 92, iconName: 'network', featured: true, displayOrder: 18 },
-      { id: 19, name: 'RabbitMQ & Postman', category: 'Architecture & Tools', proficiency: 90, iconName: 'rabbitmq', featured: false, displayOrder: 19 },
+      { id: 19, name: 'RabbitMQ & Postman', category: 'Architecture & Tools', proficiency: 90, iconName: 'rabbitmq', featured: true, displayOrder: 19 },
       { id: 20, name: 'GitHub Copilot & Claude Code', category: 'Architecture & Tools', proficiency: 92, iconName: 'copilot', featured: true, displayOrder: 20 },
-      { id: 21, name: 'Agile (Scrum) & OOP Design', category: 'Architecture & Tools', proficiency: 94, iconName: 'agile', featured: false, displayOrder: 21 },
+      { id: 21, name: 'Agile (Scrum) & OOP Design', category: 'Architecture & Tools', proficiency: 94, iconName: 'agile', featured: true, displayOrder: 21 },
     ],
   },
 ];

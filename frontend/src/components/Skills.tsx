@@ -110,9 +110,7 @@ export const Skills: React.FC<SkillsProps> = ({ skillGroups, loading }) => {
                   <div key={skill.id} className="space-y-1.5">
                     <div className="flex justify-between items-center text-xs font-medium">
                       <span className="text-[#3A1F1D] flex items-center gap-2">
-                        {skill.featured && (
-                          <CheckCircle className="w-3.5 h-3.5 text-accent-600 shrink-0" />
-                        )}
+                        <CheckCircle className="w-3.5 h-3.5 text-accent-600 shrink-0" />
                         {skill.name}
                       </span>
                       <span className="font-mono text-accent-700 font-semibold">
