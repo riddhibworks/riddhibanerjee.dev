@@ -35,7 +35,7 @@ export const Projects: React.FC<ProjectsProps> = ({ projects, loading }) => {
             04 / Selected Works
           </span>
           <h2 className="font-serif text-3xl sm:text-5xl font-normal text-[#3A1F1D]">
-            Featured Projects & <span className="text-red-gradient italic font-medium">Architecture</span>
+            Featured Projects & <span className="text-red-gradient italic font-medium inline-block pr-1.5">Architecture</span>
           </h2>
           <p className="mt-3 text-sm sm:text-base text-[#614B47] max-w-xl font-sans">
             A curated showcase of platforms, developer tooling, and distributed systems.
@@ -63,7 +63,7 @@ export const Projects: React.FC<ProjectsProps> = ({ projects, loading }) => {
                     alt={project.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-95 group-hover:opacity-100"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#2E1E1C]/80 via-transparent to-transparent lg:bg-gradient-to-r lg:from-transparent lg:to-[#2E1E1C]/30" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#2E1E1C]/30 via-transparent to-transparent pointer-events-none" />
                   
                   {project.featured && (
                     <div className="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent-600 text-white text-[10px] font-mono tracking-wider uppercase font-medium shadow-xs">

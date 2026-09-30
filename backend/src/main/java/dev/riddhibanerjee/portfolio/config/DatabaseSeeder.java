@@ -77,7 +77,7 @@ public class DatabaseSeeder implements CommandLineRunner {
                         .subtitle("Remote Job Application & Feed Aggregation Platform")
                         .description("HiredAI is a high-performance, full-stack job application and feed aggregation platform designed to streamline remote job hunting. It aggregates real-time job listings across public job boards and custom feeds (RSS, Atom, JSON APIs) into a single unified workspace, matching candidates against job roles using automated resume skill extraction and match scoring algorithms.")
                         .longDescription("HiredAI is a high-performance, full-stack job application and feed aggregation platform designed to streamline remote job hunting. It aggregates real-time job listings across public job boards and custom feeds (RSS, Atom, JSON APIs) into a single unified workspace, matching candidates against job roles using automated resume skill extraction and match scoring algorithms.")
-                        .imageUrl("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80")
+                        .imageUrl("/images/hiredai-preview.jpg")
                         .githubUrl("https://github.com/riddhibworks/HiredAI")
                         .liveDemoUrl("https://hiredai-remote.vercel.app/")
                         .featured(true)

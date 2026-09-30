@@ -42,9 +42,9 @@ export const Hero: React.FC<HeroProps> = ({ profile, onOpenResume }) => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="font-serif font-normal text-5xl sm:text-7xl md:text-8xl tracking-tight text-[#3A1F1D] leading-[1.05]"
+            className="font-serif font-normal text-5xl sm:text-7xl md:text-8xl tracking-tight text-[#3A1F1D] leading-[1.1]"
           >
-            Hi, I am <span className="text-red-gradient italic font-medium">Riddhi</span>.
+            Hi, I am <span className="text-red-gradient italic font-medium inline-block pr-2 sm:pr-3.5">Riddhi</span>.
           </motion.h1>
 
           <motion.h2

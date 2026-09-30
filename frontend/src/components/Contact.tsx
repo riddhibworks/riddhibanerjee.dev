@@ -93,7 +93,7 @@ export const Contact: React.FC<ContactProps> = ({ addToast, profile }) => {
             05 / Inquiry & Connect
           </span>
           <h2 className="font-serif text-3xl sm:text-5xl font-normal text-[#3A1F1D]">
-            Get In Touch & <span className="text-red-gradient italic font-medium">Collaborate</span>
+            Get In Touch & <span className="text-red-gradient italic font-medium inline-block pr-1.5">Collaborate</span>
           </h2>
           <p className="mt-3 text-sm sm:text-base text-[#614B47] max-w-xl font-sans">
             Have an opportunity, architecture discussion, or project in mind? Drop me a message below.

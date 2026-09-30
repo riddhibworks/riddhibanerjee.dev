@@ -31,7 +31,7 @@ export const About: React.FC<AboutProps> = ({ profile, loading, onOpenResume }) 
             01 / About
           </span>
           <h2 className="font-serif text-3xl sm:text-5xl font-normal text-[#3A1F1D]">
-            Engineering with <span className="text-red-gradient italic font-medium">Craft & Precision</span>
+            Engineering with <span className="text-red-gradient italic font-medium inline-block pr-1.5">Craft & Precision</span>
           </h2>
           <div className="w-12 h-0.5 bg-accent-600 rounded-full mt-4"></div>
         </div>

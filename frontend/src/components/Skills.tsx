@@ -47,7 +47,7 @@ export const Skills: React.FC<SkillsProps> = ({ skillGroups, loading }) => {
             02 / Capabilities
           </span>
           <h2 className="font-serif text-3xl sm:text-5xl font-normal text-[#3A1F1D]">
-            Technical Proficiency & <span className="text-red-gradient italic font-medium">Tooling</span>
+            Technical Proficiency & <span className="text-red-gradient italic font-medium inline-block pr-1.5">Tooling</span>
           </h2>
           <p className="mt-3 text-sm sm:text-base text-[#614B47] max-w-xl font-sans">
             A comprehensive overview of frameworks, languages, databases, and architectural methodologies I work with daily.

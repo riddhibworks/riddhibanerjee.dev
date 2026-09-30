@@ -35,7 +35,7 @@ export const Experience: React.FC<ExperienceProps> = ({ experiences, loading }) 
             03 / Timeline
           </span>
           <h2 className="font-serif text-3xl sm:text-5xl font-normal text-[#3A1F1D]">
-            Experience & <span className="text-red-gradient italic font-medium">Education</span>
+            Experience & <span className="text-red-gradient italic font-medium inline-block pr-1.5">Education</span>
           </h2>
           <p className="mt-3 text-sm sm:text-base text-[#614B47] max-w-xl font-sans">
             My professional timeline building engineering systems, scaling teams, and academic milestones.
