@@ -25,7 +25,7 @@ const FALLBACK_PROFILE: ProfileDto = {
   title: 'Backend-Focused Full Stack Engineer',
   headline: 'Engineering high-availability Spring Boot & Quarkus microservices, AI-powered platforms, and distributed systems.',
   bio: 'I am a Backend-Focused Full Stack Engineer with 3+ years of experience building mission-critical distributed systems and modern web applications. Currently at SITA, I architect Spring Boot microservices, rule engines, and passenger verification systems for global Border Management Systems (BMS) and Automated Border Control (ABC) e-Gates integrated with INTERPOL databases. Previously at IBS Software, I engineered cloud-native loyalty APIs for Emirates Airline and China Airlines using Quarkus, Spring Boot, PostgreSQL, and AWS.',
-  avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80',
+  avatarUrl: '/images/profile.jpg',
   location: 'Bengaluru, India',
   email: 'riddhib.works@gmail.com',
   githubUrl: 'https://github.com/riddhibworks',

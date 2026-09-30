@@ -50,11 +50,11 @@ export const About: React.FC<AboutProps> = ({ profile, loading, onOpenResume }) 
               {/* Subtle Red Shadow / Ring */}
               <div className="absolute -inset-1 rounded-2xl bg-accent-600/10 blur-sm group-hover:bg-accent-600/20 transition duration-500"></div>
               
-              <div className="relative w-64 h-64 sm:w-72 sm:h-72 rounded-2xl overflow-hidden border border-[#D8CCC0] shadow-xs bg-[#E8DED1]">
+              <div className="relative w-64 sm:w-72 aspect-[4/5] rounded-2xl overflow-hidden border border-[#D8CCC0] shadow-xs bg-[#E8DED1]">
                 <img
                   src={profile.avatarUrl}
                   alt={profile.name}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-[center_35%] group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
 
