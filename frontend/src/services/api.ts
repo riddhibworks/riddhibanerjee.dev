@@ -47,7 +47,7 @@ const FALLBACK_PROJECTS: ProjectDto[] = [
     subtitle: 'Remote Job Application & Feed Aggregation Platform',
     description: 'HiredAI is a high-performance, full-stack job application and feed aggregation platform designed to streamline remote job hunting. It aggregates real-time job listings across public job boards and custom feeds (RSS, Atom, JSON APIs) into a single unified workspace, matching candidates against job roles using automated resume skill extraction and match scoring algorithms.',
     longDescription: 'HiredAI is a high-performance, full-stack job application and feed aggregation platform designed to streamline remote job hunting. It aggregates real-time job listings across public job boards and custom feeds (RSS, Atom, JSON APIs) into a single unified workspace, matching candidates against job roles using automated resume skill extraction and match scoring algorithms.',
-    imageUrl: '/images/hiredai-preview.png',
+    imageUrl: '/images/hiredai-preview.jpg',
     githubUrl: 'https://github.com/riddhibworks/HiredAI',
     liveDemoUrl: 'https://hiredai-remote.vercel.app/',
     featured: true,
