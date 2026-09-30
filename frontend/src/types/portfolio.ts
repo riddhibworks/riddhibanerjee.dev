@@ -10,6 +10,7 @@ export interface ProfileDto {
   githubUrl: string;
   linkedinUrl: string;
   twitterUrl: string;
+  leetcodeUrl?: string;
   resumeUrl: string;
   quickFacts: string[];
 }

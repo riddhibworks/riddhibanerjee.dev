@@ -26,11 +26,12 @@ const FALLBACK_PROFILE: ProfileDto = {
   headline: 'Engineering high-availability Spring Boot & Quarkus microservices, AI-powered platforms, and distributed systems.',
   bio: 'I am a Backend-Focused Full Stack Engineer with 3+ years of experience building mission-critical distributed systems and modern web applications. Currently at SITA, I architect Spring Boot microservices, rule engines, and passenger verification systems for global Border Management Systems (BMS) and Automated Border Control (ABC) e-Gates integrated with INTERPOL databases. Previously at IBS Software, I engineered cloud-native loyalty APIs for Emirates Airline and China Airlines using Quarkus, Spring Boot, PostgreSQL, and AWS.',
   avatarUrl: '/images/profile.jpg',
-  location: 'Bengaluru, India',
+  location: 'Gurugram, India',
   email: 'riddhib.works@gmail.com',
   githubUrl: 'https://github.com/riddhibworks',
   linkedinUrl: 'https://www.linkedin.com/in/riddhi-bandyopadhyay/',
   twitterUrl: '',
+  leetcodeUrl: 'https://leetcode.com/u/riddhiii065/',
   resumeUrl: 'https://drive.google.com/file/d/1Zfy33-u6X7ub0uFywE1xW9KNvsN7DNQv/view?usp=sharing',
   quickFacts: [
     '3+ Years engineering mission-critical microservice architectures',

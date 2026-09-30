@@ -23,6 +23,7 @@ public class ProfileDto {
     private String githubUrl;
     private String linkedinUrl;
     private String twitterUrl;
+    private String leetcodeUrl;
     private String resumeUrl;
     private List<String> quickFacts;
 }

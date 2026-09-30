@@ -38,6 +38,7 @@ public class ProfileService {
                 .githubUrl(p.getGithubUrl())
                 .linkedinUrl(p.getLinkedinUrl())
                 .twitterUrl(p.getTwitterUrl())
+                .leetcodeUrl(p.getLeetcodeUrl())
                 .resumeUrl(p.getResumeUrl())
                 .quickFacts(p.getQuickFacts() != null ? new ArrayList<>(p.getQuickFacts()) : new ArrayList<>())
                 .build();
