@@ -52,7 +52,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
             <img
               src={project.imageUrl}
               alt={project.title}
-              className="w-full h-full object-cover opacity-85"
+              className="w-full h-full object-cover object-top opacity-95"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#2D1412] via-[#2D1412]/40 to-transparent"></div>
 
