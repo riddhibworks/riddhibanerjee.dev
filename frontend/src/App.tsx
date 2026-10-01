@@ -121,7 +121,7 @@ export const App: React.FC = () => {
       <ResumeModal
         isOpen={isResumeOpen}
         onClose={() => setIsResumeOpen(false)}
-        driveViewUrl={profile?.resumeUrl || 'https://drive.google.com/file/d/1Zfy33-u6X7ub0uFywE1xW9KNvsN7DNQv/view?usp=sharing'}
+        driveViewUrl={profile?.resumeUrl || 'https://drive.google.com/file/d/1OmepR2CKCngEmjJcLW0gsAugGYxi_vJB/view?usp=sharing'}
       />
     </div>
   );

@@ -8,7 +8,7 @@ interface ResumeModalProps {
   driveViewUrl?: string;
 }
 
-const DEFAULT_DRIVE_ID = '1Zfy33-u6X7ub0uFywE1xW9KNvsN7DNQv';
+const DEFAULT_DRIVE_ID = '1OmepR2CKCngEmjJcLW0gsAugGYxi_vJB';
 
 export const ResumeModal: React.FC<ResumeModalProps> = ({
   isOpen,

@@ -59,7 +59,7 @@ public class DatabaseSeeder implements CommandLineRunner {
                 .linkedinUrl("https://www.linkedin.com/in/riddhi-bandyopadhyay/")
                 .twitterUrl("")
                 .leetcodeUrl("https://leetcode.com/u/riddhiii065/")
-                .resumeUrl("https://drive.google.com/file/d/1Zfy33-u6X7ub0uFywE1xW9KNvsN7DNQv/view?usp=sharing")
+                .resumeUrl("https://drive.google.com/file/d/1OmepR2CKCngEmjJcLW0gsAugGYxi_vJB/view?usp=sharing")
                 .quickFacts(List.of(
                         "3+ Years engineering mission-critical microservice architectures",
                         "Creator of HiredAI — Job application & feed aggregation platform",
